@@ -2,7 +2,7 @@
 
 require_once "vendor/autoload.php";
 
-use GuzzleHttp\Client;
+/*use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Request;
 
 $client = new Client();
@@ -18,4 +18,5 @@ $promise = $client->sendAsync($request)->then(function ($response) {
     echo '<br>'.'I completed! ' . $response->getBody();
 });
 
-$promise->wait();
+$promise->wait();*/
+
